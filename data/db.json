@@ -1,0 +1,27 @@
+{
+    "blogs":[
+        {   "title":"React vs Angular", 
+            "author":"binoy" , 
+            "body": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.", 
+            "id":1
+        },
+
+        {   "title":"Node.js", 
+            "author":"John" , 
+            "body": "Id obcaecati eum, aut repellat, ducimus sapiente error eveniet velit .", 
+            "id":2
+        },
+
+        {   "title":"Flutter", 
+            "author":"binoy" ,
+            "body": "in consectetur doloribus rem iste aperiam accusantium,aliquam perferendis hic exercitationem cupiditate",
+            "id":3
+        },
+
+        {   "title":"PHP",
+            "author":"Yurantha" , 
+            "body": "Id obcaecati eum, aut repellat, ducimus sapiente error eveniet velit .", 
+            "id":4
+        }
+        ]
+}
