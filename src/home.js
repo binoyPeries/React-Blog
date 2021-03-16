@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import BlogList from './blogList';
 const Home = () => {
     // const [name,setName]=useState('binoy')
     // first para is the variable name
@@ -24,24 +25,11 @@ const Home = () => {
             <button onClick= {handleClick}> Click me</button> */}
 
             {/* key (Id) property is a must in react */}
+            {/* pass data from parent to child we use prop */}
 
-            {blogs.map((blog)=>(
-                <div className="blog-preview" key={blog.id}>
-                <h2>{blog.title}</h2>
-                <h4>{blog.author}</h4>
+            <BlogList blogs={blogs}/>
 
-
-                </div>
-
-
-            ))}
-
-        
-
-
-
-
-
+    
 
         </div>
     );
