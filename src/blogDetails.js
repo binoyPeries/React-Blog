@@ -5,7 +5,6 @@ const BlogDetails = () => {
 
     const {id}= useParams();
     const {data:blog,err,isloading} =useFetch(`http://localhost:8000/blogs/${id}`);
-    console.log(blog);
     return ( 
         <div className="blog-details">
         {isloading && <div> data is loading !!!</div>}
@@ -15,7 +14,7 @@ const BlogDetails = () => {
                 <h2>{blog.title}</h2>
                 <h3>written by: {blog.author}</h3>
                 <div>
-                    <p style={{'text-align': 'justify'}}>
+                    <p style={{textAlign: 'justify'}}>
                         {blog.body}
                     </p>
                 </div>
