@@ -3,6 +3,7 @@ import Home from './home';
 import CreateBlog from './createBlog';
 import {BrowserRouter as Router, Route,Switch} from 'react-router-dom';
 import BlogDetails from './blogDetails';
+import Error404 from './404';
 
 //cover the app with router so thta it can be used anywahere
 function App() {
@@ -16,6 +17,7 @@ function App() {
       {/* makes sure that only one route is shown at a given time */}
       <Switch>
       {/* place all the routes here */}
+      {/* exact keyword is a must */}
         <Route exact path='/'>
             <Home/>
         </Route>
@@ -26,6 +28,10 @@ function App() {
 
         <Route exact path='/blog/:id'>
             <BlogDetails/>
+        </Route>
+        {/* catch any other route */}
+        <Route  path='*'>
+            <Error404/>
         </Route>
 
       </Switch>
