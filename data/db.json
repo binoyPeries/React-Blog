@@ -1,27 +1,28 @@
 {
-    "blogs":[
-        {   "title":"React vs Angular", 
-            "author":"binoy" , 
-            "body": "Angular is a full-fledged mobile and web development framework. React is a framework only for UI development, which can be turned into a full-fledged solution with the help of additional libraries.React seems simpler at first sight, and it takes less time to start working on a React project. However, that simplicity as the main advantage of React is neutralized because you have to learn to work with additional JavaScript frameworks and tools.Angular itself is more complex and takes quite some time to master. Yet, it is a powerful tool that offers a holistic web development experience, and once you learn how to work with it, you reap the fruits.There is no better framework. Both are updated continuously to keep up with the competitor. For instance, while React was believed to win because of its virtual DOM, Angular equaled the score by implementing change detection. While Angular was considered to be winning because of being developed by such an authoritative company as Google, the immense devoted React community fully compensated for Google's reputation and made React similar to Angular.", 
-            "id":1
-        },
-
-        {   "title":"Node.js", 
-            "author":"John" , 
-            "body": "JavaScript’s rising popularity has brought with it a lot of changes, and the face of web development today is dramatically different. The things that we can do on the web nowadays with JavaScript running on the server, as well as in the browser, were hard to imagine just several years ago, or were encapsulated within sandboxed environments like Flash or Java Applets.As Wikipedia states: “Node.js is a packaged compilation of Google’s V8 JavaScript engine, the libuv platform abstraction layer, and a core library, which is itself primarily written in JavaScript.” Beyond that, it’s worth noting that Ryan Dahl, the creator of Node.js, was aiming to create real-time websites with push capability, “inspired by applications like Gmail”. In Node.js, he gave developers a tool for working in the non-blocking, event-driven I/O paradigm.", 
-            "id":2
-        },
-
-        {   "title":"Flutter", 
-            "author":"binoy" ,
-            "body": "Paint your app to life in milliseconds with Stateful Hot Reload. Use a rich set of fully-customizable widgets to build native interfaces in minutes.Quickly ship features with a focus on native end-user experiences. Layered architecture allows for full customization, which results in incredibly fast rendering and expressive and flexible designsFlutter’s widgets incorporate all critical platform differences such as scrolling, navigation, icons and fonts, and your Flutter code is compiled to native ARM machine code using Dart's native compilers.",
-            "id":3
-        },
-
-        {   "title":"PHP",
-            "author":"Yurantha" , 
-            "body": "PHP is one of the most widely used server side scripting language for web development. Popular websites like Facebook, Yahoo, Wikipedia etc, and our very own Studytonight, are developed using PHP.PHP is so popular because it's very simple to learn, code and deploy on server, hence it has been the first choice for beginners since decades.In this tutorial series we will be covering all the important concepts of Php language from basics to advanced and will also share some ready-to-use, useful code sinppets for beginners to kickstart their web development project.", 
-            "id":4
-        }
-        ]
+  "blogs": [
+    {
+      "title": "React vs Angular",
+      "author": "binoy",
+      "body": "Angular is a full-fledged mobile and web development framework. React is a framework only for UI development, which can be turned into a full-fledged solution with the help of additional libraries.React seems simpler at first sight, and it takes less time to start working on a React project. However, that simplicity as the main advantage of React is neutralized because you have to learn to work with additional JavaScript frameworks and tools.Angular itself is more complex and takes quite some time to master. Yet, it is a powerful tool that offers a holistic web development experience, and once you learn how to work with it, you reap the fruits.There is no better framework. Both are updated continuously to keep up with the competitor. For instance, while React was believed to win because of its virtual DOM, Angular equaled the score by implementing change detection. While Angular was considered to be winning because of being developed by such an authoritative company as Google, the immense devoted React community fully compensated for Google's reputation and made React similar to Angular.",
+      "id": 1
+    },
+    {
+      "title": "Node.js",
+      "author": "John",
+      "body": "JavaScript’s rising popularity has brought with it a lot of changes, and the face of web development today is dramatically different. The things that we can do on the web nowadays with JavaScript running on the server, as well as in the browser, were hard to imagine just several years ago, or were encapsulated within sandboxed environments like Flash or Java Applets.As Wikipedia states: “Node.js is a packaged compilation of Google’s V8 JavaScript engine, the libuv platform abstraction layer, and a core library, which is itself primarily written in JavaScript.” Beyond that, it’s worth noting that Ryan Dahl, the creator of Node.js, was aiming to create real-time websites with push capability, “inspired by applications like Gmail”. In Node.js, he gave developers a tool for working in the non-blocking, event-driven I/O paradigm.",
+      "id": 2
+    },
+    {
+      "title": "Flutter",
+      "author": "binoy",
+      "body": "Paint your app to life in milliseconds with Stateful Hot Reload. Use a rich set of fully-customizable widgets to build native interfaces in minutes.Quickly ship features with a focus on native end-user experiences. Layered architecture allows for full customization, which results in incredibly fast rendering and expressive and flexible designsFlutter’s widgets incorporate all critical platform differences such as scrolling, navigation, icons and fonts, and your Flutter code is compiled to native ARM machine code using Dart's native compilers.",
+      "id": 3
+    },
+    {
+      "title": "PHP",
+      "author": "Yurantha",
+      "body": "PHP is one of the most widely used server side scripting language for web development. Popular websites like Facebook, Yahoo, Wikipedia etc, and our very own Studytonight, are developed using PHP.PHP is so popular because it's very simple to learn, code and deploy on server, hence it has been the first choice for beginners since decades.In this tutorial series we will be covering all the important concepts of Php language from basics to advanced and will also share some ready-to-use, useful code sinppets for beginners to kickstart their web development project.",
+      "id": 4
+    }
+  ]
 }
