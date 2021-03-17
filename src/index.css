@@ -116,3 +116,30 @@
   border-radius: 10px;
   cursor: pointer;
 }
+
+.not-found{
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+.not-found h1{
+  font-size: 50px;
+  padding: 15px;
+  color: #f1356d;
+}
+
+.not-found h3{
+  font-size: 20px;
+  padding: 15px;
+}
+
+.not-found a{
+  text-decoration: none;
+}
+
+.not-found a:hover{
+  
+  color: #34bdf3;
+  text-decoration: none;
+}
